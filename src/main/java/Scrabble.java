@@ -103,7 +103,7 @@ public class Scrabble {
                 indexes.add(scrabbleString.indexOf(c, firstInd + 1));
                 continue;
             }
-            indexes.add(scrabbleString.indexOf(c));
+            indexes.add(firstInd);
         }
         return indexes;
     }
